@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal Inline</title>
+    <style>
+      img {
+        width: 50%;
+        border: 2px solid red;
+        border-radius: 50%;
+        border-style: dotted;
+      }
+      /* classa göre seçim */
+      .img-div {
+        text-align: center;
+      }
+      #par{
+        color: purple ;
+        font-family:'Courier New', Courier, monospace;
+        text-align: justify;
+        font-weight: 900 ;
+        font-size: 25px ;
+      }
+    </style>
+  </head>
+  <body>
+    <!--* Inline CSS, HTML elementlerine style keyword'u ile eklenir.
+   * style kelimesinin ici aslinda CSS alanidir.
+   * Sadece eklenen element icin bir stillendirme gerceklestirir.
+   * Bu sebeple cok pratik bir yontem degildir.
+   * HTML kodlarini kalabaliklastirdigi icin kodun gorunumunu karmasiklastirir.  -->
+    <h1 style="color: red; text-align: center">Using CSS</h1>
+
+    <p style="background-color: lightgreen">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus suscipit
+      ipsam pariatur quod cum a, eos illum, id aspernatur dolor dolorem nulla
+      consequuntur repellat aliquam veritatis! Asperiores rerum tenetur saepe?
+    </p>
+    <div class="img-div">
+      <img
+        src="https://images.unsplash.com/photo-1670238115034-cf9936ae00ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt="mountain"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1670169120472-ca0011ae7a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        alt="adam"
+        height="500px"
+      />
+    </div>
+    <p id="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias velit autem dolorem deleniti sequi, dolor ut quidem officia id, reprehenderit corporis sint quia a qui exercitationem optio. Excepturi, non. Totam?</p>
+  </body>
+</html>

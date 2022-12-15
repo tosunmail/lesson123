@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  /* text-align: center; */
+  background-image: url(./background_image.jpg);
+  height:100vh;
+  background-repeat: none;
+  background-size:cover;
+}
+span {
+  color: red;
+}
+header {
+  font-family: "Rubik Spray Paint", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+#conteiner {
+  background-color: rgba(0, 0, 0, 0.189);
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 90%;
+}
+#form {
+  background-color: rgba(0, 0, 0, 0.709);
+  
+  padding: 30px 40px;
+  width: 30vw;
+  margin: auto;
+}
+p{
+    text-align: center;
+}
+#submit{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+#content{
+    width: 165px;
+}
+label{
+    margin-bottom: 50px;
+}
+textarea{
+    resize: none;
+}

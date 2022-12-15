@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+header {
+  padding: 40px;
+  background-color: red;
+  color: white;
+  font-size: 40px;
+}
+nav {
+  background-color: #e963c1;
+  padding: 20px;
+  font-size: 20px;
+  color: aliceblue;
+}
+nav a {
+  color: aliceblue;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color: red ;
+}
+footer{
+    background: rgba(0, 0, 0, 0.288);
+    color: white;
+    padding: 20px;
+}
+figcaption{
+    margin-bottom: 30px;
+
+}
+h2{
+    margin: 20px 0
+    ;
+}

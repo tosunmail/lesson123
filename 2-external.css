@@ -1,0 +1,28 @@
+* {
+  background-color: rgb(210, 221, 218);
+}
+
+/* override */
+/* body {
+  background-color: antiquewhite;
+} */
+h1 {
+  color: red;
+  /* saydamlık ayarlama */
+}
+li {
+  list-style-type: lower-greek;
+  color: rgb(194, 134, 38);
+}
+li:hover {
+  color: purple;
+  font-weight: 800;
+  cursor: pointer;
+}
+h1:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.list {
+  border: 1px solid red;
+}

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-image: url(https://images.pexels.com/photos/12811978/pexels-photo-12811978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* tarayıcının görünen alanının %100 yüksekliği */
+}
+form {
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+  background: rgb(63, 94, 251);
+  background: rgb(34, 193, 195);
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(166, 119, 20, 1) 100%
+  );
+  border-radius: 10px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+.lang-div,
+.gender-div {
+  width: auto;
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+.inputs {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(223, 245, 23, 0);
+}
+.radio-check {
+  margin-bottom: 20px;
+}
+.btn-container {
+  text-align: center;
+}
+.btn-container input {
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #72dc2b;
+  padding: 10px;
+}
+.btn-container input:hover {
+  background-color: rgb(220, 245, 35);
+  color: rgb(24, 162, 236);
+  font-weight: 800;
+  cursor: pointer;
+}
+.textareadiv * {
+  vertical-align: middle;
+}
